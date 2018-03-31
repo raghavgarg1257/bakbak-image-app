@@ -1,0 +1,39 @@
+{
+  "name": "bakbak-image-manipulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "serve:dev": "nodemon --exec babel-node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "butteraugli": "0.0.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "get-pixels": "^3.3.0",
+    "imagemin": "^5.3.1",
+    "imagemin-gm": "^2.0.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-optipng": "^5.2.1",
+    "imagemin-pngquant": "^5.1.0",
+    "imagemin-webp": "^4.1.0",
+    "lodash": "^4.17.5",
+    "method-override": "^2.3.10",
+    "mime": "^2.2.2",
+    "morgan": "^1.9.0",
+    "uuid": "^3.2.1"
+  }
+}
